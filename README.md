@@ -2,6 +2,5 @@ wewe0901-vim
 ============
 
 
-plugin list
-============
+==plugin list==
 * nerdtree
