@@ -7,13 +7,19 @@ call pathogen#infect()
 " editor setting
 syntax on
 set nu
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 " vim-powerline recommand setting
 set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show unicode glyphs
 let g:Powerline_symbols='unicode'
-let g:Powerline_colorscheme='skwp'
+
+
+
 " key mapping
 nnoremap <silent> <F2> :NERDTreeToggle<CR>
 
