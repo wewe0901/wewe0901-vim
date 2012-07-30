@@ -80,10 +80,10 @@ endif
 "}}}
 " General colors"{{{
 hi  Normal       guifg=#c6c6c6 guibg=#121212 gui=NONE      ctermfg=251   ctermbg=233  cterm=NONE
-hi  NonText      guifg=#ff00ff guibg=#000000 gui=NONE      ctermfg=13    ctermbg=0    cterm=NONE
+hi  NonText      guifg=#ff00ff guibg=#000000 gui=NONE      ctermfg=black   ctermbg=0    cterm=NONE
 
 hi  Cursor       guifg=#000000 guibg=#ffff00 gui=NONE      ctermfg=0     ctermbg=11   cterm=reverse
-hi  LineNr       guifg=#3a3a3a guibg=#000000 gui=NONE      ctermfg=237   ctermbg=0    cterm=NONE
+hi  LineNr       guifg=#cccccc guibg=#000000 gui=NONE      ctermfg=darkgray   ctermbg=0    cterm=NONE
 
 hi  VertSplit    guifg=#303030 guibg=#303030 gui=NONE      ctermfg=236   ctermbg=236  cterm=NONE
 hi  StatusLine   guifg=#9cffd3 guibg=#202020 gui=NONE      ctermfg=85    ctermbg=234  cterm=NONE
