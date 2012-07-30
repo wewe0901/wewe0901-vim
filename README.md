@@ -6,3 +6,8 @@ plugin list
 ============
 
 * nerdtree
+* vim-jade
+* vim-javascript
+* powerline
+
+
