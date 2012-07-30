@@ -7,6 +7,7 @@ call pathogen#infect()
 " editor setting
 syntax on
 set nu
+set term=screen-256color
 
 " vim-powerline recommand setting
 set nocompatible   " Disable vi-compatibility
