@@ -15,6 +15,7 @@ Bundle 'jistr/vim-nerdtree-tabs'
 " * vim basic setup
 filetype plugin indent on 
 syntax on
+set t_Co=256
 
 " * vim-airline
 set laststatus=2
