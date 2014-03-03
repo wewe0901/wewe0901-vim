@@ -1,25 +1,24 @@
-" pathongen init
-call pathogen#infect()
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-" editor setting
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" ====== Plugin list =======
+Bundle 'gmarik/vundle'
+Bundle 'bling/vim-airline'
+Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
+" ====== Configurations =====
+
+" * vim basic setup
+filetype plugin indent on 
 syntax on
-set nu
-set smartindent
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set term=screen-256color
 
-" vim-powerline recommand setting
-set nocompatible   " Disable vi-compatibility
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show unicode glyphs
-let g:Powerline_symbols='unicode'
-let NERDTreeMapOpenInTab='\r'
-" color theme
-colorscheme gummybears
+" * vim-airline
+set laststatus=2
+let g:airline_theme='powerlineish'
 
-
-" key mapping
-nnoremap <silent> <F2> :NERDTreeTabsToggle<CR>
-
+" ======= Hot keys =======
+map <C-n> :NERDTreeTabsToggle<CR>
