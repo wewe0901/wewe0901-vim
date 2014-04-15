@@ -10,12 +10,17 @@ Bundle 'gmarik/vundle'
 Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
+
 " ====== Configurations =====
 
 " * vim basic setup
 filetype plugin indent on 
 syntax on
 set t_Co=256
+" redefine tab as 4 spaces
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 
 " * vim-airline
 set laststatus=2
