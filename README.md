@@ -4,10 +4,9 @@ wewe0901-vim
 
 plugin list
 ============
-
+* Vundle
+* vim-airline
 * nerdtree
-* vim-jade
-* vim-javascript
-* powerline
+* nerdtree-tab
 
 
