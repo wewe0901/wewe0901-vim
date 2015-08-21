@@ -10,6 +10,7 @@ Bundle 'gmarik/vundle'
 Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'rodjek/vim-puppet'
 
 " ====== Configurations =====
 
