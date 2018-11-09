@@ -7,7 +7,7 @@ call vundle#rc()
 
 " ====== Plugin list =======
 Bundle 'gmarik/vundle'
-Bundle 'bling/vim-airline'
+Bundle 'vim-airline/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'rodjek/vim-puppet'
