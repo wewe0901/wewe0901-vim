@@ -6,12 +6,13 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " ====== Plugin list =======
-Bundle 'gmarik/vundle'
-Bundle 'vim-airline/vim-airline'
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'rodjek/vim-puppet'
+Plugin 'gmarik/vundle'
+Plugin 'vim-airline/vim-airline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+plugin 'rodjek/vim-puppet'
 
+call vundle#end()
 " ====== Configurations =====
 
 " * vim basic setup
